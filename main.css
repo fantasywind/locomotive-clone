@@ -1,3 +1,54 @@
-h1 {
-  color: blue;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d4c9c9;
+  font-family: sans-serif;
+  padding: 0 40px;
+}
+
+#key-visual-section {
+  text-transform: uppercase;
+  color: #222;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+#key-visual-section .split-version {
+  color: #fff;
+  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#key-visual-section header {
+  width: 100%;
+  height: 84px;
+  line-height: 84px;
+  font-size: 21px;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#key-visual-section .main {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#key-visual-section .title {
+  font-size: 11.5vw;
+  line-height: 0.9;
+  margin: 0;
 }
