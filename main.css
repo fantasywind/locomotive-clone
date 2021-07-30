@@ -6,6 +6,7 @@ body {
   background-color: #d4c9c9;
   font-family: sans-serif;
   padding: 0 40px;
+  margin: 0;
 }
 
 #key-visual-section {
@@ -45,10 +46,25 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
+  padding: 35px 0;
 }
 
 #key-visual-section .title {
   font-size: 11.5vw;
   line-height: 0.9;
   margin: 0;
+}
+
+#key-visual-section .logo {
+  background-image: url(logo.svg);
+  background-size: 56px 122px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 56px;
+  height: 122px;
+  position: absolute;
+  right: 0;
+  bottom: 40px;
+  font-size: 0;
+  outline: none;
 }
